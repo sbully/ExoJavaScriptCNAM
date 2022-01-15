@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Couleur JavaScript</title>
+  </head>
+  <body>
+    <fieldset class="container">
+      <legend>Variante 1</legend>
+      <div class="color-container v1"></div>
+      <div>
+        <input
+          type="text"
+          class="redHexaV1"
+          maxlength="2"
+          value="00"
+          disabled
+        />
+        <input
+          type="text"
+          class="greenHexaV1"
+          maxlength="2"
+          value="00"
+          disabled
+        />
+        <input
+          type="text"
+          class="blueHexaV1"
+          maxlength="2"
+          value="00"
+          disabled
+        />
+      </div>
+      <div>
+        <input class="redButtonV1" type="button" value="R" />
+        <input class="greenButtonV1" type="button" value="G" />
+        <input class="blueButtonV1" type="button" value="B" />
+      </div>
+    </fieldset>
+    <fieldset class="container">
+      <legend>Variante 2</legend>
+      <div class="color-container v2"></div>
+      <div class="rangecontainer">
+        <div>
+          <input
+            class="redRangeV2"
+            type="range"
+            name="R"
+            min="0"
+            max="255"
+            value="0"
+          />
+          <div class="input-container">
+            <h2>R</h2>
+            <input
+              type="text"
+              class="redHexaV2"
+              maxlength="2"
+              value="00"
+              disabled
+            />
+          </div>
+        </div>
+        <div>
+          <input
+            class="greenRangeV2"
+            type="range"
+            name="G"
+            min="0"
+            max="255"
+            value="0"
+          />
+          <div class="input-container">
+            <h2 for="G">G</h2>
+            <input
+              type="text"
+              class="greenHexaV2"
+              maxlength="2"
+              value="00"
+              disabled
+            />
+          </div>
+        </div>
+        <div>
+          <input
+            class="blueRangeV2"
+            type="range"
+            name="B"
+            min="0"
+            max="255"
+            value="0"
+          />
+          <div class="input-container">
+            <h2 for="B">B</h2>
+            <input
+              type="text"
+              class="blueHexaV2"
+              maxlength="2"
+              value="00"
+              disabled
+            />
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="container">
+      <legend>Variante 3</legend>
+      <div class="color-container v3"></div>
+      <div>
+        <input
+          type="text"
+          class="redHexaV3"
+          maxlength="2"
+          value="00"
+          disabled
+        />
+        <input
+          type="text"
+          class="greenHexaV3"
+          maxlength="2"
+          value="00"
+          disabled
+        />
+        <input
+          type="text"
+          class="blueHexaV3"
+          maxlength="2"
+          value="00"
+          disabled
+        />
+      </div>
+      <div>
+        <input class="redButtonV3" type="button" value="R" />
+        <input class="greenButtonV3" type="button" value="G" />
+        <input class="blueButtonV3" type="button" value="B" />
+      </div>
+    </fieldset>
+  </body>
+  <script src="script.js"></script>
+</html>
