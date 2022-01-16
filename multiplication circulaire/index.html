@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mulform">
+      <div class="flex-row">
+        <div id="mulform-svg">
+          <svg class="svg"></svg>
+        </div>
+
+        <div class="right">
+          <div class="play" id="div-t" style="padding-left: 1.8rem">
+            <div class="padding-bottom05">
+              <b>Change table</b>
+              <button id="btn-t" type="button">Play</button>
+            </div>
+            <div class="grid2-form">
+              <label for="step-t" class="padding-left">Step:</label>
+              <input id="step-t" type="number" value="1" step="1" size="2" />
+            </div>
+          </div>
+          <br />
+          <div class="play" id="div-m">
+            <div class="padding-bottom05">
+              <b>Change Modulo</b>
+              <button id="btn-m" type="button">Play</button>
+            </div>
+            <div class="grid2-form">
+              <label for="step-m" class="padding-left">Step:</label>
+              <input id="step-m" type="number" value="1" step="1" size="1" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end class="right" -->
+
+      <div class="bottom">
+        <div class="carac">
+          <span class="">Table: </span>
+          <input id="table" type="number" value="2" size="2" />
+          <span class="padding-left">Modulo: </span>
+          <input id="modulo" type="number" value="100" size="3" min="0" />
+        </div>
+      </div>
+      <!-- end class="bottom" -->
+    </div>
+    <!-- end class="mulform" -->
+  </body>
+  <script src="script.js"></script>
+</html>
